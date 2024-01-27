@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header {
+    background-color: #33333300;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+header h1 {
+    margin: 5px 0 0;
+    font-size: 45px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 20px 110px rgba(255, 255, 255, 0.801); /* Ajustes na sombra */
+}
+
+main { background-color: #000000; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+.links {
+    display: flex;
+    flex-direction: column; /* Alterado para alinhar verticalmente */
+    justify-content: center;
+    align-items: center; /* Alinha os botões ao centro horizontalmente */
+}
+
+.link-button {
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.link-button img {
+    width: 340px;
+    height: 126,413462px; /* Mantém a proporção 1000x413 */
+}
+
+
+footer {
+    background-color: #000000;
+    color: #777777;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 15px;
+}
